@@ -1,0 +1,42 @@
+html,
+body,
+.container {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.topbar {
+  background-color: pink;
+  color: white;
+  font-family: "Great Vibes";
+  font-size: 8em;
+  padding: 0.15em 0.3em;
+}
+
+.content {
+  font-family: "Source Sans Pro";
+  font-size: 3em;
+}
+
+.term {
+  align-items: center;
+  border-top: 1px solid #ccc;
+  display: flex;
+  height: 3em;
+  justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+.term .octicon {
+  font-size: 1.5em;
+}
+
+.term .term-pos {
+  background-color: gold;
+  border-radius: 0.25em;
+  font-size: 0.6em;
+  padding: 0.25em;
+}
