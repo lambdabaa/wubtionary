@@ -17,6 +17,7 @@ body {
 }
 
 .content {
+  cursor: pointer;
   font-family: "Source Sans Pro";
   font-size: 3em;
 }
