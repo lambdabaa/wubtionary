@@ -52,7 +52,7 @@ const terms = [
   {
     name: 'gwocer',
     pos: 'adjective',
-    defn: 'To located nearer as opposed to farther away. Oftentimes it will be a very wubby near.',
+    defn: 'To be located nearer as opposed to farther away. Oftentimes it will be a very wubby near.',
   },
   {
     name: 'heww',
