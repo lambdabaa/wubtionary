@@ -9,7 +9,7 @@ body {
 }
 
 .topbar {
-  background-color: pink;
+  background-color: #008489;
   color: white;
   font-family: "Great Vibes";
   font-size: 8em;
@@ -30,8 +30,17 @@ body {
   padding: 0 1.5em;
 }
 
+.term .term-name {
+  align-items: center;
+  display: flex;
+}
+
 .term .octicon {
   font-size: 1.5em;
+}
+
+.term.active .octicon {
+  color: #008489;
 }
 
 .term .term-pos {
@@ -39,4 +48,17 @@ body {
   border-radius: 0.25em;
   font-size: 0.6em;
   padding: 0.25em;
+  text-transform: uppercase;
+}
+
+.term:nth-child(even) {
+  background-color: #eee;
+}
+
+.term-defn {
+  padding: 0 1.5em 1.5em 1.5em;
+}
+
+.selected-term {
+  background-color: rgba(253,92,99,0.25);
 }
